@@ -1,0 +1,275 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-4-7, 11:04:11
+    Author     : lenovo
+*/
+.liveshow{
+    background-color: #fff;
+}
+.liveshow .liveshow_banner{
+    width: 100%;
+    height: 28%;
+}
+.liveshow .liveshow_banner_img{
+   width: 100%;
+   height: 100%; 
+}
+.liveshow .liveshow_title{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  border-bottom: 0.5px solid #d7d7d7;
+  color: #212121;
+  padding: 6px 0px;
+}
+.liveshow_renqi{
+ position: relative;
+  width:100%;
+  padding:0px 5%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  color: #818181;
+  font-size: 0.6rem;
+}
+.liveshow_time{
+    padding: 0px 10px 0px 0px;
+    border-right: 0.5px solid #979797;
+    color: #818181; 
+}
+.liveshow_fire{
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+.liveshow_renqi_span{
+    color: #818181; 
+}
+.liveshow_renqi_icon{
+     width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 100rem;
+}
+.liveshow_head_extend{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    position: absolute;
+    top: 12.5px;
+    right: 5%;
+}
+.liveshow_info_img{
+    width: 100%;
+    height: 100%;
+}
+.liveshow_footer{
+    width: 100%;
+    padding: 10px 0px;
+    position: fixed;
+    border-top: 0.5px solid #d7d7d7;
+    bottom: 0;
+    z-index: 999;
+    background-color: #fff; 
+    left: 0px;
+    
+}
+.liveshow_footer_span{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ff4646;
+    color: #fff;
+    border-radius: 4px;
+    z-index: 999;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+}
+/*预约遮盖层start*/
+ .liveshowcover{
+       position: absolute; 
+       display: none;
+        top:0px;
+        left:0px;
+        width: 100%;
+        z-index: 1000;
+        height: 100%;
+  }
+    .liveshowcover_bg{
+        position: absolute;
+        top:0px;
+        left:0px;
+        width: 100%;
+        height: 100%;
+        background-color: #212121;
+        opacity: 0.8;
+       
+    }
+    .cover_share_liveshowcover{
+        position: fixed;
+        top:0px;
+        right:20px;
+        width: 50%;
+        height: 30%;
+        opacity: 1;
+    }
+    /*预约遮盖层end*/
+    /*预约成功遮盖层start*/
+    .booked_success{
+       position: absolute; 
+       display: none;
+        top:0px;
+        left:0px;
+        width: 100%;
+        z-index: 1000;
+        height: 100%;
+  }
+    .booked_success_bg{
+        position: absolute;
+        top:0px;
+        left:0px;
+        width: 100%;
+        height: 100%;
+        background-color: #212121;
+        opacity: 0.8;
+       
+    }
+    .booked_success_box{
+        width: 75%;
+        height: 28%;
+        position: absolute;
+        top: 36%;
+        left: 12.5%;
+        background-color: #fff;
+        opacity: 1;
+        border-radius: 5px;
+        color: #000;
+    }
+    .booked_success_content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .booked_success_content_x{
+        position: absolute;
+        top: 18%;
+        left:84%;
+        width: 18px;
+        height: 18px; 
+    }
+    .booked_success_content_title{
+        position: absolute;
+        top: 20%;
+/*        left: 12.5%;*/
+        width: 100%;
+       text-align: center;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.1rem;
+    }
+    .booked_success_content_chilun{
+        width: 26px;
+        height: 26px;
+        vertical-align: middle;
+        margin-right: 12px;
+    }
+    .booked_success_submit{
+        border-radius: 2px;
+        text-align: center;
+        font-size: 1rem;
+        width: 35%;
+        left: 32.5%;
+        height: 30px;
+        line-height: 30px;
+        border: 0.5px solid #ff4646;
+        position: absolute;
+        bottom: 30px;
+        color: #ff4646;
+       
+    }
+    /*预约成功遮盖层end*/
+  .alertBox{
+        width: 10%;
+        height: 10px;
+        position: fixed;
+        bottom: -2999px;
+        left:-2999px;
+        z-index: 999;
+        box-shadow: 15px 15px 15px #ccc;
+        transition:left 1s;
+        -moz-transition:left 1s, -moz-transform 1s; /* Firefox 4 */
+        -webkit-transition:left 1s, -webkit-transform 1s; /* Safari and Chrome */
+        -o-transition:left 1s, -o-transform 1s; /* Opera */
+    }
+    .alertBox_show{
+        width: 70%;
+        height: 160px;
+        left: 15%;
+         top: 35%;
+        transform:rotate(720deg);
+        -moz-transform:rotate(720deg); /* Firefox 4 */
+        -webkit-transform:rotate(720deg); /* Safari and Chrome */
+        -o-transform:rotate(720deg); /* Opera */
+    }
+    .alertBox .alertBox_title{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background-color: #E3F2E1;
+        border-radius: 5px 5px 0px 0px;
+        position: relative;
+    }
+    .alertBox .alertBox_title_close
+    {
+        
+/*          padding: 2px 4px;
+          background-color: #9BD3CE;*/
+/*        position: absolute;
+        right: 10px;*/
+    }
+   
+    .alertBox_title_closeword{
+        width: 80%;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .alertBox .alertBox_body{
+        width: 100%;
+        height: 120px;
+        background-color: #EAF5F5;
+        position: relative;
+        text-align: center;
+        border-radius: 0px 0px 5px 5px ;
+       
+    }
+    .alertBox_body_word{
+         display: block;
+         width: 100%;
+         height: 40px;
+         line-height: 40px;
+         position: absolute;
+         top:20px;
+    }
+    .alertBox .alertBox_body_submit{
+        position: absolute;
+        bottom: 10px;
+        left: 30%;
+        text-align: center;
+        width: 40%;
+        height: 30px;
+        line-height: 30px;
+        background-color:#9BD3CE; 
+        border-radius: 5px;
+    }
+
+

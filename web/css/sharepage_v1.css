@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-4-10, 11:19:57
+    Author     : lenovo
+*/
+
+
+.sharepage{
+    width: 100%;
+    height: 100%;
+   position: relative;
+}
+.sharepage .sharepage_content_bg{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+}
+.sharepage .sharepage_content
+{
+    
+   text-align: center;
+}
+
+
+.sharepage .sharepage_content_head{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 100rem;
+    position: absolute;
+    left: 41.2%;
+    top:28.5%;
+
+ 
+}
+.sharepage .sharepage_content_name{
+     font-size: 0.7rem;
+     position: absolute;
+     top: 39.95%;
+     text-align: center;
+     width: 100%;   
+     color: #fff;     
+}
+.sharepage .sharepage_content_name_span{
+    font-size: 0.7rem;
+     position: absolute;
+     top: 39.95%;
+     text-align: center;
+     width: 100%;   
+     color: #fff;     
+}
+
+.sharepage .sharepage_content_name p{
+    margin: 0;
+    padding: 0;
+}
+
+.sharepage .sharepage_content_code{
+    width:7.4rem;
+    height: 7.4rem;
+    position: absolute;
+    top: 49.55%;
+    left: 30%
+
+}
+

@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-4-10, 10:12:45
+    Author     : lenovo
+*/
+.verifypage{
+    background-color: #fff;
+}
+.verifypage .warn_item{
+    width: 100%;
+    height: 7%;
+}
+
+.verifypage .verifypage .warn_item_img{
+    width: 100%;
+    height: 100%;
+}
+
+.verifypage .verifyphone{
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+    border-bottom: 0.5px solid #d7d7d7;
+}
+.verifypage .verifyphone_img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+
+.verifypage .verifyphone_input{
+    height: 100%;
+    border: none;
+    margin-left: 5%;
+    font-size: 0.8rem;
+    width: 50%;
+}
+.verifypage .verifycode{
+    display: inline-block;
+    width: 30%;
+    color: #ff4646;
+    border: 0.5px solid #ff4646;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px 6px;
+}
+.verifypage .verifysubmit{
+    padding: 25px 0px;
+}
+.verifypage .verifysubmit_span{
+    border-radius: 4px;
+   text-align: center;
+   line-height: 40px;
+    width: 90%;
+    height: 40px;
+    background-color: #ff4646;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1rem;
+    
+}
+
